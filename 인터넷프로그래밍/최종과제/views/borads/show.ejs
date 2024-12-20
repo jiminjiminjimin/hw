@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('../partials/head') %>
+  </head>
+  <body>
+    <%- include('../partials/nav') %>
+    <div class="container borad borad-show">
+      <h2>Show</h2>
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title"><%= borad.title%></h3>
+          <label>Author</label><span><%= borad.author %></span>
+          <br>
+          <label>Content</label><span><%= borad.content %></span>
+        </div>
+      </div>
+      <div class="borad-menu mt-2">
+        <a href="/borads/<%= borad._id %>/edit" class="btn btn-light mr-2">Edit</a>
+        <form action="/borads/<%= borad._id %>?_method=delete" method="post">
+          <a href="#" class="btn btn-light" onclick="confirm('Do you want to delete this?')?this.parentElement.submit():null;">Delete</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

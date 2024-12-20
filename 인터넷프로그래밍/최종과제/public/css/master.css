@@ -1,0 +1,19 @@
+/*public/css/master.css*/
+.borad .borad-form,
+.borad-index ul{
+    max-width: 500px;
+}
+.borad h2{
+    color: tomato;
+}
+.borad .borad-form label,
+.borad-show label{
+    display: inline-block;
+    width: 70px;
+}
+.borad .borad-menu form{
+    display: inline-block;
+}
+label {
+    font-weight : bold
+}

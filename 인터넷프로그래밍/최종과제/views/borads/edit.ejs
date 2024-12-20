@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('../partials/head') %>
+  </head>
+  <body>
+    <%- include('../partials/nav') %>
+    <div class="container borad borad-edit">
+      <h2>Edit</h2>
+      <form class="borad-form" action="/borads/<%= borad._id %>?_method=put" method="post">
+        <div class="form-group">
+          <label for="title">Title</label>
+          <input type="text" id="title" name="title" value="<%= borad.title %>" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="author">Author</label>
+          <input type="text" id="author" name="author" value="<%= borad.author %>" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="content">Content</label>
+          <input type="text" id="content" name="content" value="<%= borad.content %>" class="form-control">
+        </div>
+        <div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
