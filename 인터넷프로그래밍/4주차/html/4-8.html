@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "UTF-8">
+<title>숫자입력</title>
+</head>
+<body>
+<form>
+    <h3>에어컨 조절</h3>
+    <hr>
+    작동시간 (0.0 ~ 5.0 시간) :
+    <input type="number" min="0.0" max="10.0" step="0.5" value="0">
+
+    <br><br>
+    온도 : 10&deg;
+    <input type="range" min="18" max="30" list="tem">30&deg;
+    <datalist id="tem">
+        <option value="18" label="low"></option>
+        <option value="24" label="medium"></option>
+        <option value="28" label="high"></option>
+    </datalist>
+
+
+</form>
+    
+</body>
+</html>
