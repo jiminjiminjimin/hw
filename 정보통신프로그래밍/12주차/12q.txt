@@ -1,0 +1,37 @@
+5.
+Figure figure
+(Polygon) {w,h,f};
+case Rectangle:
+
+7.
+p->height = h;
+r.p.height;
+float TriangleArea(Triangle t)
+&r.p
+
+8.
+s->grade = grade
+
+9.
+s2 = NewStudent("Lee",2345);
+DeleteStudent(&s3);
+(char*)malloc(strlen(name)+1);
+free(a name);
+
+10. 
+this->grade = grade;
+
+12.
+new char[strlen(s)]
+delete[] name;
+name=new char[strlen(a.name)+1]
+
+15.
+30 10 40 20
+
+
+18.
+top=-1;
+data[++top]=n;
+return data[top--];
+30 10 40 20

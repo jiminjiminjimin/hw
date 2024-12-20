@@ -1,0 +1,32 @@
+2.
+Area of square = 16.0
+
+6.
+void Message:: Receiver()
+switch (message)
+default:
+
+7.
+srand(time(NULL));
+rand()%99+100;
+
+12.
+(int*) malloc(num*sizeof(int));
+free(array)
+
+16.
+s1 = ABCDEFG, s2 = HIJKLMN, s3 = DEFG, s4 = KLMN 
+
+19.
+p1= new int
+p2= new int[SIZE]
+delete p1
+delete[] p2
+
+22.
+Enter your name: hwangjimin
+HWANGJIMIN
+
+24.
+Enter your name: hwangjimin
+hwangjimin

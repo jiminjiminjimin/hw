@@ -1,0 +1,37 @@
+1. 
+**p1 = 10, **p2 = 20
+**p1 = 20, **p2 = 10
+
+2.
+s1 = ABCDEFG, s2 = ABCDEFG
+s2 = DEFG, s3 = G
+DEFGEFGFGG
+
+6. 
+10. int a, int b
+&a, &b
+
+10.
+a = 1, b = 2, c = 3
+a = 3, b = 1, c = 2
+
+19. 
+0 1 1 2 1
+3 1
+
+20.
+main: a = 10, b = 10, c = 0, d = 20, e = 0
+return: a = 11, b = 11, c = 21, d = 21, e = 1
+return: a = 11, b = 12, c = 22, d = 21, e = 2
+return: a = 11, b = 13, c = 23, d = 21, e = 3
+main: a = 10, b = 13, c = 0, d = 0, e = 3
+
+21. 
+int *Min1(int *a, int *b)
+Min2(int *a,int *b)
+&a, &b
+&p, &a, &b
+
+24.
+50 40 30 20 10
+11 22 33 44 55

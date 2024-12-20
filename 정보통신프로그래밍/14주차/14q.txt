@@ -1,0 +1,54 @@
+2.
+rand()%2;
+Channel(txSignal);
+Receiver(rxSignal);
+
+3.
+#include "..Library/lib.h"
+rand()%2;
+CH_Channel(txSignal);
+RX_Receiver(rxSignal);
+int LIB_BinaryData();
+
+6.
+#define  NUM_STATION 4
+"top.h"
+#define  EXTERN extern
+"top.h"
+
+9.
+"Rectangle.h"
+"Triangle.h"
+POLYGON_H
+#endif
+"polygon.h"
+(polygon) {w,h};
+"polygon.h"
+"rectangle.h"
+"polygon.h"
+"Triangle.h"
+
+12.
+sum = 1+ 2 = 3
+sum = 3 + 4 = 7
+
+13.
+Factorial(5) = 5 * 4 * 3 * 2 * 1 =120
+
+20.
+"top.h"
+"tx.h"
+"rx.h"
+"top.h"
+void TX_Transmitter(Message *message);
+"tx.h"
+"top.h"
+void RX_Receiver(Message *message);
+
+21.
+TOP_H
+"top.h"
+"sta.h"
+STA_H
+"top.h"
+void STA_Station(Packet *packet, int id);
