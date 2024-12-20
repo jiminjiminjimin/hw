@@ -1,0 +1,34 @@
+15.
+namespace Triangle
+using namespace Polygon
+using namespace Triangle
+
+18.
+Floating number is 3.2
+Integer number is 3
+Integer number is 3 and 4
+
+19.
+5, 5.8
+
+22.
+1 2 3;10 2 3;20 2 3;10 20 3;10 20 30; 
+
+27.
+total = 4, num = 2; total = 6, num = 4; total = 2, num = 2
+
+35.
+class Hatchback : public Car
+void Door() {cout<<"5 doors<<endl;"}
+
+36.
+Type();Usage();Wheel();Door();
+class Hatchback : public Car
+void Type() {cout<<"Hatchback: "}
+void Door() {cout<<"5 doors<<endl;"}
+
+37.
+Motorcycle: Transportation, 4 wheels, No door
+Sedan: Transportation, 4 wheels, No door
+Coupe: Transportation, 4 wheels, No door
+Hatchback: Transportation, 4 wheels, No door

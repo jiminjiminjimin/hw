@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1632280379 source:c:\users\win10\desktop\동국대 과제\21 2학기\정통프\4주차\core\core\main.c
+	<stdio.h>
+	<stdlib.h>
+
